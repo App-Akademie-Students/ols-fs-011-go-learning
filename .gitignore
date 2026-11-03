@@ -1,0 +1,29 @@
+# Go: kompilierte Dateien und Build-Verzeichnisse
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+/bin/
+/build/
+/dist/
+
+# Go: Testdateien, Coverage und Profiling
+*.test
+*.out
+*.prof
+/coverage/
+
+# Go: lokale Workspace-Konfiguration
+/go.work
+/go.work.sum
+
+# VS Code: lokale Einstellungen; gemeinsame Konfiguration erlauben
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+*.code-workspace
+.history/
