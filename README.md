@@ -22,6 +22,16 @@ Starte danach das Terminal und gegebenenfalls VS Code neu. Prüfe die Installati
 go version
 ```
 
+### Alternative: Nix und direnv
+
+Mit [Nix](https://nixos.org/) (Flakes aktiviert) und [direnv](https://direnv.net/) stellt das Projekt Go, `gopls`, `goimports` und `delve` selbst bereit. Erlaube die Umgebung einmalig im Projektordner:
+
+```sh
+direnv allow
+```
+
+Ohne direnv startest du die Umgebung mit `nix develop`.
+
 ## VS Code einrichten
 
 1. Installiere [Visual Studio Code](https://code.visualstudio.com/).
