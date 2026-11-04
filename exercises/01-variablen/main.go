@@ -3,7 +3,9 @@ package main
 import "fmt"
 
 func main() {
+	stadt := "Bonn"
+	stadt = "Köln"
 
-	name := "Micha"
-	fmt.Println(name)
+	
+	fmt.Println(stadt)
 }
